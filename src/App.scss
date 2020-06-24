@@ -1,0 +1,21 @@
+@import "./assets/styles/tailwind.min.scss";
+
+.transition-full {
+  @extend .transition;
+  @extend .ease-in-out;
+  @extend .duration-300;
+}
+
+.hover-hidden:hover .hidden {
+  display: block;
+}
+
+.text-inherit {
+  color: inherit;
+}
+
+.card {
+  @extend .p-2; 
+  @extend .rounded; 
+}
+
